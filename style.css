@@ -1,0 +1,58 @@
+.query {
+	background-color: #f2f2f2;
+}
+
+.first-line {
+	display: inline-block;
+}
+
+#logo {
+	display: inline-block;
+	float: left;
+	width: 49%;
+	height: auto;
+	margin-top: 16px;
+	margin-left: 5px;
+}
+
+#search {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 30px;
+	position: absolute;
+}
+
+#search input {
+	width: 550px;
+	height: 40px;
+	margin-top: 0;
+	padding: 0;
+}
+
+.menu {
+	display: inline-block;
+	list-style-type: none;
+	text-align: right;
+	position: absolute;
+	right: 0px;
+	margin-right: 10px;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: right;
+}
+
+#image {
+	width: 32px;
+	border-radius: 50%;
+}
+
+.tabs {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.tabs li {
+	display: inline-block;
+}
