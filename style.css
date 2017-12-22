@@ -73,3 +73,49 @@ body {
 	color: rgba(0, 0, 0, .54);
 	margin-left: 140px;
 }
+
+.search-result .title {
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	margin-bottom: 1px;
+	color: blue;
+}
+
+.search-result .title a {
+	text-decoration: none;
+}
+
+.search-result .link {
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 1px;
+	color: green;
+}
+
+.search-result .text {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	margin-right: 620px;
+	margin-top: 0px;
+	color: grey;
+	margin-bottom: 1px;
+}
+
+.search-result .links {
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 101px;
+	margin-top: 0px;
+}
+
+.search-result .links li {
+	display: inline-block;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.search-result .links li a {
+	text-decoration: none;
+}
