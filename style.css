@@ -13,10 +13,10 @@ body {
 #logo {
 	display: inline-block;
 	float: left;
-	width: 49%;
+	width: 48%;
 	height: auto;
-	margin-top: 16px;
-	margin-left: 5px;
+	margin-top: 24px;
+	margin-left: 13px;
 }
 
 #search {
@@ -27,9 +27,11 @@ body {
 }
 
 #search input {
-	width: 550px;
+	width: 629px;
 	height: 40px;
 	padding: 0;
+	margin-top: 5px;
+	margin-left: 5px;
 }
 
 .menu {
@@ -38,12 +40,27 @@ body {
 	text-align: right;
 	position: absolute;
 	right: 0px;
-	margin-right: 10px;
+	margin-right: 29px;
+	top: 11px;
 }
 
 .menu li {
 	display: inline-block;
 	text-align: right;
+}
+
+#apps {
+	color: grey;
+	position: absolute;
+	top: 20px;
+	right: 94px;
+}
+
+#notifications {
+	color: grey;
+	position: absolute;
+	top: 20px;
+	right: 50px;
 }
 
 #image {
@@ -54,7 +71,7 @@ body {
 .tabs {
 	list-style-type: none;
 	display: inline-block;
-	margin-left: 95px;
+	margin-left: 122px;
 }
 
 .tabs li {
@@ -65,13 +82,17 @@ body {
 
 .tabs li a {
 	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: grey;
+	margin-right: 20px;
 }
 
 .search-result p {
 	font-family: arial, sans-serif;
 	font-size: 12px;
 	color: rgba(0, 0, 0, .54);
-	margin-left: 140px;
+	margin-left: 168px;
 }
 
 .search-result .title {
@@ -106,8 +127,9 @@ body {
 .search-result .links {
 	list-style-type: none;
 	display: inline-block;
-	margin-left: 101px;
+	margin-left: 129px;
 	margin-top: 0px;
+
 }
 
 .search-result .links li {
@@ -118,4 +140,25 @@ body {
 
 .search-result .links li a {
 	text-decoration: none;
+}
+
+#search-keyboard {
+	position:absolute;
+	top: 15px;
+	right: 95px;
+	color: grey;
+}
+
+#search-mic {
+	position: absolute;
+	top: 15px;
+	right: 55px;
+	color: #4285f4;
+}
+
+#search-icon {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	color: #4285f4;
 }
